@@ -13,12 +13,12 @@ phases:
   build:
     commands:
       - echo Build started on `date`
-      - dotnet restore
-      - dotnet build
+      - /root/.dotnet/dotnet restore
+      - /root/.dotnet/dotnet build
   post_build:
     commands:
       - echo Build completed on `date`
-      - dotnet publish -c Release
+      - /root/.dotnet/dotnet publish -c Release -o ../publish
       - aws cloudformation package --template-file cloudformationTemplate.yml --s3-bucket yevhen --output-template-file outputCloudFormationTemplate.yml
       - ls -la ./publish
 
