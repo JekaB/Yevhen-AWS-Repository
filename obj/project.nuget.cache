@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ck4O4vDEPBg=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Yevhen_Bocharov\\source\\repos\\AwsEc2Subtask4\\AwsEc2Subtask4.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Yevhen_Bocharov\\.nuget\\packages\\amazon.lambda.core\\2.3.0\\amazon.lambda.core.2.3.0.nupkg.sha512",
+    "C:\\Users\\Yevhen_Bocharov\\.nuget\\packages\\amazon.lambda.s3events\\3.1.0\\amazon.lambda.s3events.3.1.0.nupkg.sha512",
+    "C:\\Users\\Yevhen_Bocharov\\.nuget\\packages\\awssdk.core\\3.7.400.17\\awssdk.core.3.7.400.17.nupkg.sha512",
+    "C:\\Users\\Yevhen_Bocharov\\.nuget\\packages\\awssdk.ec2\\3.7.404.1\\awssdk.ec2.3.7.404.1.nupkg.sha512",
+    "C:\\Users\\Yevhen_Bocharov\\.nuget\\packages\\awssdk.extensions.netcore.setup\\3.7.301\\awssdk.extensions.netcore.setup.3.7.301.nupkg.sha512",
+    "C:\\Users\\Yevhen_Bocharov\\.nuget\\packages\\awssdk.s3\\3.7.402.8\\awssdk.s3.3.7.402.8.nupkg.sha512",
+    "C:\\Users\\Yevhen_Bocharov\\.nuget\\packages\\awssdk.simplenotificationservice\\3.7.400.11\\awssdk.simplenotificationservice.3.7.400.11.nupkg.sha512",
+    "C:\\Users\\Yevhen_Bocharov\\.nuget\\packages\\awssdk.sqs\\3.7.400.11\\awssdk.sqs.3.7.400.11.nupkg.sha512",
+    "C:\\Users\\Yevhen_Bocharov\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.8\\microsoft.entityframeworkcore.8.0.8.nupkg.sha512",
+    "C:\\Users\\Yevhen_Bocharov\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.8\\microsoft.entityframeworkcore.abstractions.8.0.8.nupkg.sha512",
+    "C:\\Users\\Yevhen_Bocharov\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.8\\microsoft.entityframeworkcore.analyzers.8.0.8.nupkg.sha512",
+    "C:\\Users\\Yevhen_Bocharov\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\8.0.2\\microsoft.entityframeworkcore.relational.8.0.2.nupkg.sha512",
+    "C:\\Users\\Yevhen_Bocharov\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\8.0.0\\microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Yevhen_Bocharov\\.nuget\\packages\\microsoft.extensions.caching.memory\\8.0.0\\microsoft.extensions.caching.memory.8.0.0.nupkg.sha512",
+    "C:\\Users\\Yevhen_Bocharov\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Yevhen_Bocharov\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "C:\\Users\\Yevhen_Bocharov\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Yevhen_Bocharov\\.nuget\\packages\\microsoft.extensions.logging\\8.0.0\\microsoft.extensions.logging.8.0.0.nupkg.sha512",
+    "C:\\Users\\Yevhen_Bocharov\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Yevhen_Bocharov\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "C:\\Users\\Yevhen_Bocharov\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\Yevhen_Bocharov\\.nuget\\packages\\mysqlconnector\\2.3.5\\mysqlconnector.2.3.5.nupkg.sha512",
+    "C:\\Users\\Yevhen_Bocharov\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\8.0.2\\pomelo.entityframeworkcore.mysql.8.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

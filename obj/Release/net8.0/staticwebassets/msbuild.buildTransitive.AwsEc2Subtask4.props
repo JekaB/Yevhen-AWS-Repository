@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\AwsEc2Subtask4.props" />
+</Project>

@@ -1,0 +1,26 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      dotnet: 8
+  build:
+    commands:
+      - echo Build started on `date`
+      - dotnet restore
+      - dotnet build
+  post_build:
+    commands:
+      - echo Build completed on `date`
+      - dotnet publish -c Release -o ./publish
+      - aws cloudformation package --template-file cloudformationTemplate.yml --s3-bucket yevhen --output-template-file outputCloudFormationTemplate.yml
+      - ls -la ./publish
+
+artifacts:
+  files:
+    - Artifacts/AwsEc2Subtask4.zip
+    - outputCloudFormationTemplate.yml
+
+cache:
+  paths:
+    - '/root/.nuget/packages/**/*'

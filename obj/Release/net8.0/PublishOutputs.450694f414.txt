@@ -1,0 +1,9 @@
+C:\Users\Yevhen_Bocharov\source\repos\AwsEc2Subtask4\publish\AwsEc2Subtask4.exe
+C:\Users\Yevhen_Bocharov\source\repos\AwsEc2Subtask4\publish\appsettings.Development.json
+C:\Users\Yevhen_Bocharov\source\repos\AwsEc2Subtask4\publish\appsettings.json
+C:\Users\Yevhen_Bocharov\source\repos\AwsEc2Subtask4\publish\AwsEc2Subtask4.dll
+C:\Users\Yevhen_Bocharov\source\repos\AwsEc2Subtask4\publish\AwsEc2Subtask4.deps.json
+C:\Users\Yevhen_Bocharov\source\repos\AwsEc2Subtask4\publish\AwsEc2Subtask4.runtimeconfig.json
+C:\Users\Yevhen_Bocharov\source\repos\AwsEc2Subtask4\publish\AwsEc2Subtask4.pdb
+C:\Users\Yevhen_Bocharov\source\repos\AwsEc2Subtask4\publish\AWSSDK.Core.dll
+C:\Users\Yevhen_Bocharov\source\repos\AwsEc2Subtask4\publish\AWSSDK.EC2.dll

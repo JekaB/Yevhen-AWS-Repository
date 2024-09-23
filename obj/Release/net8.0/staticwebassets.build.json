@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "hWfViJrBzvDNgT1sOBYQEFiU/9AoqH6gM2oYj9LtvS4=",
+  "Source": "AwsEc2Subtask4",
+  "BasePath": "_content/AwsEc2Subtask4",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

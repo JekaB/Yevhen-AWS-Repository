@@ -1,0 +1,33 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: SQS to SNS.
+
+Parameters:
+  SQSQueueArn:
+    Type: String
+    Description: The ARN of the SQS Queue
+
+Resources:
+  Function:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: scripts/
+      Handler: app.lambdaHandler
+      Runtime: nodejs20.x
+      Architectures:
+        - x86_64
+      Timeout: 10
+      Policies:
+      - AWSLambda_FullAccess
+      - AWSLambdaSQSQueueExecutionRole
+      - AmazonSNSFullAccess
+      - AmazonSQSFullAccess
+      AutoPublishAlias: live
+      DeploymentPreference:
+        Type: Canary10Percent10Minutes
+      Events:
+        MySQSEvent:
+          Type: SQS
+          Properties:
+            Queue: !Ref SQSQueueArn
+            BatchSize: 10

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\AwsEc2Subtask4.props" />
+</Project>
