@@ -2,14 +2,13 @@ version: 0.2
 
 phases:
   install:
-    commands:
-     - echo "Installed .NET version is $installed_version. Installing .NET 8.0.303..."
-     - sudo apt-get update && apt-get install -y wget
-     - sudo wget https://dotnet.microsoft.com/download/dotnet/scripts/v1/dotnet-install.sh \
-            && chmod +x dotnet-install.sh \
-            && ./dotnet-install.sh --version 8.0.303 --verbose \
-            && rm dotnet-install.sh      
-     - /root/.dotnet/dotnet --version
+    commands:- echo Installing .NET SDK
+      - wget https://dotnet.microsoft.com/download/dotnet/scripts/v1/dotnet-install.sh
+      - chmod +x dotnet-install.sh
+      - ./dotnet-install.sh --version 8.0.303 --install-dir /usr/share/dotnet
+      - export PATH=$PATH:/usr/share/dotnet
+      - dotnet --version
+      - /root/.dotnet/dotnet --version
   build:
     commands:
       - echo Build started on `date`
