@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Yevhen_Bocharov\\source\\repos\\AwsEc2Subtask4\\AwsEc2Subtask4.csproj": {}
+    "C:\\Users\\Yevhen_Bocharov\\source\\repos\\Yevhen-AWS-Repository\\AwsEc2Subtask4.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Yevhen_Bocharov\\source\\repos\\AwsEc2Subtask4\\AwsEc2Subtask4.csproj": {
+    "C:\\Users\\Yevhen_Bocharov\\source\\repos\\Yevhen-AWS-Repository\\AwsEc2Subtask4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Yevhen_Bocharov\\source\\repos\\AwsEc2Subtask4\\AwsEc2Subtask4.csproj",
+        "projectUniqueName": "C:\\Users\\Yevhen_Bocharov\\source\\repos\\Yevhen-AWS-Repository\\AwsEc2Subtask4.csproj",
         "projectName": "AwsEc2Subtask4",
-        "projectPath": "C:\\Users\\Yevhen_Bocharov\\source\\repos\\AwsEc2Subtask4\\AwsEc2Subtask4.csproj",
+        "projectPath": "C:\\Users\\Yevhen_Bocharov\\source\\repos\\Yevhen-AWS-Repository\\AwsEc2Subtask4.csproj",
         "packagesPath": "C:\\Users\\Yevhen_Bocharov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Yevhen_Bocharov\\source\\repos\\AwsEc2Subtask4\\obj\\",
+        "outputPath": "C:\\Users\\Yevhen_Bocharov\\source\\repos\\Yevhen-AWS-Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Yevhen_Bocharov\\AppData\\Roaming\\NuGet\\NuGet.Config",

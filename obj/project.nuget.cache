@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ck4O4vDEPBg=",
+  "dgSpecHash": "mlrEgjkaph4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Yevhen_Bocharov\\source\\repos\\AwsEc2Subtask4\\AwsEc2Subtask4.csproj",
+  "projectFilePath": "C:\\Users\\Yevhen_Bocharov\\source\\repos\\Yevhen-AWS-Repository\\AwsEc2Subtask4.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Yevhen_Bocharov\\.nuget\\packages\\amazon.lambda.core\\2.3.0\\amazon.lambda.core.2.3.0.nupkg.sha512",
     "C:\\Users\\Yevhen_Bocharov\\.nuget\\packages\\amazon.lambda.s3events\\3.1.0\\amazon.lambda.s3events.3.1.0.nupkg.sha512",
