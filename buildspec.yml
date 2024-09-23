@@ -17,7 +17,7 @@ phases:
   post_build:
     commands:
       - echo Build completed on `date`
-      - dotnet publish -c Release -o ./publish
+      - dotnet publish -c Release
       - aws cloudformation package --template-file cloudformationTemplate.yml --s3-bucket yevhen --output-template-file outputCloudFormationTemplate.yml
       - ls -la ./publish
 

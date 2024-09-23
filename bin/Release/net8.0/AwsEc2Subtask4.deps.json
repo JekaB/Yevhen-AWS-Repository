@@ -13,11 +13,29 @@
           "AWSSDK.S3": "3.7.402.8",
           "AWSSDK.SQS": "3.7.400.11",
           "AWSSDK.SimpleNotificationService": "3.7.400.11",
+          "Amazon.Lambda.Core": "2.3.0",
+          "Amazon.Lambda.S3Events": "3.1.0",
           "Microsoft.EntityFrameworkCore": "8.0.8",
           "Pomelo.EntityFrameworkCore.MySql": "8.0.2"
         },
         "runtime": {
           "AwsEc2Subtask4.dll": {}
+        }
+      },
+      "Amazon.Lambda.Core/2.3.0": {
+        "runtime": {
+          "lib/net8.0/Amazon.Lambda.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Amazon.Lambda.S3Events/3.1.0": {
+        "runtime": {
+          "lib/net8.0/Amazon.Lambda.S3Events.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "AWSSDK.Core/3.7.400.17": {
@@ -195,6 +213,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Amazon.Lambda.Core/2.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GTZcqjNO87uaozSJpF8FxMuSgN5CX7GdXoLWp+rhF27MBmRtnTHCoGS69J0gSWnbsfVqh8DZIE5QOoP4BVxuOQ==",
+      "path": "amazon.lambda.core/2.3.0",
+      "hashPath": "amazon.lambda.core.2.3.0.nupkg.sha512"
+    },
+    "Amazon.Lambda.S3Events/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dBhPrxs7c5BA97hKxszYEtu7EJh2q8v7v4LYCQ26aXd/+/vzvP3taMa4PY8AizsPGqvp1chdTZWCB8D4KG3iNg==",
+      "path": "amazon.lambda.s3events/3.1.0",
+      "hashPath": "amazon.lambda.s3events.3.1.0.nupkg.sha512"
     },
     "AWSSDK.Core/3.7.400.17": {
       "type": "package",
