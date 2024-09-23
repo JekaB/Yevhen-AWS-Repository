@@ -2,8 +2,13 @@ version: 0.2
 
 phases:
   install:
-    runtime-versions:
-      dotnet: 8
+    commands:
+      - echo Installing .NET SDK
+      - wget https://dotnet.microsoft.com/download/dotnet/scripts/v1/dotnet-install.sh
+      - chmod +x dotnet-install.sh
+      - ./dotnet-install.sh --version 8.0.100 --install-dir /usr/share/dotnet
+      - export PATH=$PATH:/usr/share/dotnet
+      - dotnet --version
   build:
     commands:
       - echo Build started on `date`
