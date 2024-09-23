@@ -6,9 +6,9 @@ phases:
       - echo Installing .NET 8 SDK
       - wget https://dotnet.microsoft.com/download/dotnet/scripts/v1/dotnet-install.sh
       - chmod +x dotnet-install.sh
-      - ./dotnet-install.sh --version 8.0.100 --install-dir /root/.dotnet --runtime dotnet
-      - export PATH=/root/.dotnet:$PATH  # Ensure this session knows where to find dotnet
-      - /root/.dotnet/dotnet --version  # Verify installation
+      - ./dotnet-install.sh --version 8.0.303 --install-dir /root/.dotnet --runtime dotnet
+      - export PATH=/root/.dotnet:$PATH  
+      - /root/.dotnet/dotnet --version  
   build:
     commands:
       - echo Build started on `date`
