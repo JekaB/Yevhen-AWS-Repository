@@ -3,29 +3,22 @@ version: 0.2
 phases:
   install:
     commands:
-      - echo Installing .NET 8 SDK
-      - wget https://dotnet.microsoft.com/download/dotnet/scripts/v1/dotnet-install.sh
-      - chmod +x dotnet-install.sh
-      - ./dotnet-install.sh --version 8.0.303 --verbose
-      - export PATH=/root/.dotnet:$PATH  
-      - /root/.dotnet/dotnet --version  
+      - echo Installing .NET SDK
+      - powershell -Command "Invoke-WebRequest -Uri https://dotnet.microsoft.com/download/dotnet/scripts/v1/dotnet-install.ps1 -OutFile dotnet-install.ps1"
+      - powershell -Command ".\dotnet-install.ps1 -Version 8.0.100 -InstallDir 'C:\Program Files\dotnet'"
+      - $env:PATH = "C:\Program Files\dotnet;" + $env:PATH
+      - dotnet --version
   build:
     commands:
       - echo Build started on `date`
-      - /root/.dotnet/dotnet restore
-      - /root/.dotnet/dotnet build
+      - dotnet restore
+      - dotnet build
   post_build:
     commands:
       - echo Build completed on `date`
-      - /root/.dotnet/dotnet publish -c Release -o ../publish
-      - aws cloudformation package --template-file cloudformationTemplate.yml --s3-bucket yevhen --output-template-file outputCloudFormationTemplate.yml
-      - ls -la ./publish
+      - dotnet publish -c Release -o publish
+      - dir publish
 
 artifacts:
   files:
-    - Artifacts/AwsEc2Subtask4.zip
-    - outputCloudFormationTemplate.yml
-
-cache:
-  paths:
-    - '/root/.nuget/packages/**/*'
+    - publish/**/*
